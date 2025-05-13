@@ -59,4 +59,15 @@ $usuario->loadById("10");
 $usuario->update("aluneira");
 echo $usuario;
 */
+
+//deletar usuario
+/*
+$usuario = new Usuario();
+
+$usuario->loadById(9);
+
+$usuario->delete();
+
+echo $usuario;
+*/
 ?>
