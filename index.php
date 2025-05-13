@@ -40,4 +40,23 @@ echo "<br><br>";
 //carrega o usuario usando o login e a senha
 $Logado = Usuario::login("jose", "123243423434");
 echo json_encode($Logado);
+
+//
+echo "<br><br>";
+//
+
+//inserir uma pessoa
+/*$aluno = new Usuario("aluno", "29ultimate");
+$aluno->insert();
+echo $aluno;
+*/
+
+//atualizar uma pessoa pelo id
+/*
+$usuario = new Usuario();
+
+$usuario->loadById("10");
+$usuario->update("aluneira");
+echo $usuario;
+*/
 ?>
